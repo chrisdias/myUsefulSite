@@ -2,5 +2,11 @@
     "python.pythonPath": "/usr/bin/python3",
     "appService.zipIgnorePattern": [
         ".vscode{,/**}"
-    ]
+    ],
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
 }
