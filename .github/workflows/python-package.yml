@@ -26,7 +26,6 @@ jobs:
         pip install pytest
         pytest
 
-    - name: Deploy to Azure
     - uses: azure/appservice-actions/webapp@master
       with:
         app-name: cdias-usefulsite-python-staging
