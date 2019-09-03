@@ -10,7 +10,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Set up Python 3.7
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
@@ -32,5 +31,5 @@ jobs:
 
     - uses: azure/appservice-actions/webapp@master
       with:
-        app-name: cdias-usefulsite-python-staging
+        app-name: cdias-usefulsite-1234-staging
         publish-profile: ${{ secrets.publishStaging}}
